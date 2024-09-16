@@ -1,0 +1,116 @@
+{
+    "error": {
+        "invalidMongoId": "Invalid Mongo Id",
+
+        "signInProblem": "Invalid email or password",
+        "authenticationProblem": "Login first to be able to access",
+        "authorizationProblem": "You don't have the permission",
+        "LogInAgain": "Login again",
+        "activeProblem": "You are not active",
+        "sendEmailFailure": "Failed to send email",
+        "resetCodeNeeded": "First get the reset code",
+        "invalidResetCode": "Invalid or expired reset code",
+        "resetCodeVerifyNeeded": "Verify your reset code first",
+        "invalidActiveCode": "Invalid active value",
+
+        "cartNotFound": "Cart not found",
+        "productNotFound": "Product not found",
+        "couponNotFound": "Coupon not found",
+        "userNotFound": "User not found",
+        "orderNotFound": "Order not found",
+        "addressNotFound": "Address not found",
+        "reviewNotFound": "Review not found",
+        "categoryNotFound": "Category not found",
+        "subcategoryNotFound" : "Subcategory not found",
+
+
+        "reviewNeeded": "Review's user is Needed",
+        "reviewProductNeeded": "Review's product is Needed",
+        "reviewCommentNeeded": "Review's comment is required",
+        "reviewRateNeeded": "Review's rate is Needed",
+        "reviewUserNeeded": "Review's user is Needed",
+        "reviewAlreadyExist": "You already added a review for this product",
+        "invalidReviewDelete": "You are not allowed to delete review that is not yours",
+        "invalidReviewEdit": "You are not allowed to edit review that is not yours",
+
+
+        "productNameNeeded": "Product's name is required",
+        "productNameLength": "Product name's length should be between 2 and 30",
+        "productDescriptionNeeded": "Product's description is required",
+        "productDescriptionLength": "Product description's length should be between 2 and 30",
+        "productPriceNeeded": "Product's price is required",
+        "productPriceType": "Product's price should be number",
+        "productPriceInvalid": "Invalid product price",
+        "productPriceAfterDiscountType": "Product's price after discount should be number",
+        "productPriceAfterDiscountInvalid": "Invalid product price after discount",
+        "productQuantityType": "Product's quantity should be number",
+        "productQuantityInvalid": "Invalid product quantity",
+        "productCategoryNeeded": "Product's category is required",
+        "productCategoryInvalid": "Invalid Product's category id",
+        "productSubcategoryNeeded": "Product's subcategory is required",
+        "productSubcategoryInvalid": "Invalid Product's subcategory id",
+
+
+        "couponNeeded": "Coupon code is required",
+        "couponLength": "Coupon's code must be between 5 and 10",
+        "couponExist": "Coupon code already exists",
+        "couponExpireDateNeeded": "Coupon's expiry date is required",
+        "couponExpireDate": "Invalid date",
+        "couponDiscountNeeded": "Coupon's discount value is required",
+        "couponDiscountInvalidType": "Coupon's discount should be integer",
+        "couponDiscountInvalidValue": "Coupon's discount value is invalid",
+
+
+        "categoryNameNeeded": "Category's name is required",
+        "categoryNameLength": "Category's name must have length between 2 and 20",
+        "subcategoryNameNeeded": "Subcategory's name is required",
+        "subcategoryNameLength": "Subcategory's name must have length between 2 and 20",
+        "subcategoryCategoryRequired": "Subcategory's category is required",
+        "subcategoryExist": "Subcategory already exists",
+        "categorySubcategoryMatch": "Subcategory doesn't belong to the category",
+
+
+        "userNameNeeded": "User's name is required",
+        "userNameLength": "Name length should be between 7 and 20",
+        "userEmailNeeded": "Email is required",
+        "userEmailInvalid": "Invalid email",
+        "userEmailExists": "Email already exists",
+        "currentPasswordNeeded": "Current password is required",
+        "currentPasswordLength": "Current Password's length should be between 8 and 20 char",
+        "invalidCurrentPassword": "Invalid current password",
+        "newPasswordNeeded": "New password is required",
+        "newPasswordLength": "New Password's length should be between 8 and 20 char",
+        "passwordNeeded": "Password is required",
+        "passwordLength": "Password's length should be between 8 and 20 char",
+        "confirmPasswordNeeded": "Confirm password is required",
+        "confirmPasswordLength": "Confirm Password's length should be between 8 and 20 char",
+        "passwordMatch": "Passwords don't match",
+
+
+        "cartProductNeeded": "Cart\"s product is required",
+
+
+        "quantityNeeded": "Quantity is required",
+        "quantityType": "Quantity should be a number",
+        "quantityInvalid": "Invalid quantity",
+
+
+        "addressStreetNeeded": "Street name is required",
+        "addressStreetLength": "Street name length should be between 3 and 50",
+        "addressCityNeeded": "City name is required",
+        "addressCityLength": "City name length should be between 3 and 50",
+        "addressStateNeeded": "State name is required",
+        "addressStateLength": "State name length should be between 3 and 50",
+        "addressApartmentNoNeeded": "ApartmentNo name is required",
+        "addressApartmentNoLength": "ApartmentNo name length should be between 1 and 5"
+    },
+    "response": {
+        "successfulSignIn": "logged in successfully",
+        "resetCodeSent": "Reset code is sent to your email",
+        "resetCodeVerified": "Reset code verified",
+        "passwordChanged": "Password changed successfully",
+        "userUpdated": "User is updated successfully"
+        
+    }
+    
+}
